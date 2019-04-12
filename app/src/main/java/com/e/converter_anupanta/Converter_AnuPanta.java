@@ -38,7 +38,7 @@ public class Converter_AnuPanta {
             second=number/10;
             third=number%10;
 
-            hundreds= numwords[first]+" Hundred and ";
+            hundreds= numwords[first]+" Hundred  and  ";
             tens= wordstens[second];
             ones= numwords[third];
             words=(hundreds+tens+ones);
