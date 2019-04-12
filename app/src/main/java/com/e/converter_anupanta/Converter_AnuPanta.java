@@ -9,7 +9,7 @@ public class Converter_AnuPanta {
     private String[] wordstens={"","Ten","Twenty","Thirty","Forty","Fifty","Sixty","Seventy","Eighty","Ninety"};
 
 
-    public Converter_AnuPanta( int number) {
+    public Converter_AnuPanta(int number) {
         this.number=number;
 
     }
