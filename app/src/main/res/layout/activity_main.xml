@@ -7,5 +7,51 @@
     tools:context=".MainActivity">
 
 
+    <TextView
+        android:id="@+id/tvnumber"
+        android:text="Number to Words"
+        style="@style/textview"
+        />
+    <EditText
+        android:id="@+id/etnum"
+        android:hint="Enter 3 digit Number"
+        android:layout_below="@+id/tvnumber"
+        style="@style/editview"
+        />
+
+    <Button
+        android:id="@+id/btncovert"
+        android:layout_below="@+id/etnum"
+        android:text="Convert"
+        style="@style/textview"
+        />
+
+    <TextView
+        android:id="@+id/tvresult"
+        android:layout_below="@+id/btncovert"
+        style="@style/textview"
+        />
 
 </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
